@@ -23,25 +23,6 @@ Make sure to download the dataset from Kaggle and place it in the appropriate di
 
 ---
 
-## Usage
-
-You can either run the Jupyter Notebook or the Python scripts to perform stock market forecasting.
-
-1. **Using Jupyter Notebook**:
-   - Open `notebooks/stock_forecasting.ipynb` and follow the steps to preprocess the data, build the ARIMA model, and visualize predictions.
-
-2. **Using Python scripts**:
-   - Preprocess the data:
-     ```bash
-     python src/data_preprocessing.py
-     ```
-   - Train and evaluate the ARIMA model:
-     ```bash
-     python src/arima_model.py
-     ```
-
----
-
 ## Model Explanation
 
 The **ARIMA (AutoRegressive Integrated Moving Average)** model is built in the following steps:
